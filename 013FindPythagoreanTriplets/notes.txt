@@ -1,0 +1,12 @@
+Problem:
+We have an array of numbers from which Pythagorean triplets need to be found.
+**
+Solution:
+1. Brute force - 3 nested loops O(n3)
+2. Faster way
+    Create a hashed set which stores the square values of the numbers. O(n) time and space
+    Iterate through 2 loops and see if sum of elements gives any sum in hashed set. O(n^2) time
+**
+Complexity:
+O(n^2) Time
+O(n) Space

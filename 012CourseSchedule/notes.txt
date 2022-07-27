@@ -1,9 +1,21 @@
 Problem:
-
+We are given a number of nodes in a directed graph. We are also given a list with elements in format [a, b],
+    where "b" is a starting node and "a" a destination node. The graph can be constructed from this data.
+    Determine if the graph is acyclical* or cyclical.
+* Acyclical graph is the one without cycles. Cycle is defined as a non-empty directed trail in which start and end node
+are equal. In other words, if while traversing the graph following the directed edges
+    the node that has already been visited gets visited again, the graph has a cycle. 
+The story of this task says that course b is a prerequisite to course a. We must see if all the courses can be completed.
+Course can be completed if the course dependency flows only one way. In other words:
+    - courses cannot be mutually dependable, or
+    - graph cannot be acyclical
+    - tree must be able to be constructed from the graph
 **
 Solution:
-
+From the intial parameters (n and the list of directed edges) an edge-adjacency matrix is constructed.
+DFS will be used.
 **
 Complexity:
-O(x) Time
-O(x) Space
+Usual complexities are:
+    O(n^2) Time
+    O(n) Space

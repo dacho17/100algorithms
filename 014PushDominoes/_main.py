@@ -1,4 +1,4 @@
-from CourseScheduleTestSuite import TestSuite
+from PushDominoesTestSuite import TestSuite
 
 def main():
     TestSuite().run_test_suite()

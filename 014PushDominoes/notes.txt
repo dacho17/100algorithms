@@ -1,0 +1,12 @@
+Problem:
+We get a list of elements which represent forces (R, L, or none) applied to dominos within the list.
+Based on this list, we need to determine whether each domino will fall L, R, or stay still. This info needs to be output.
+**
+Solution:
+Pass through the list rightwards, and assign right force amount influencing each domino. Do the same leftwards.
+These forces must have be of opposite prefix sign. Sum up left and right force influences.
+Sums equal to 0 denote that dominos will stay still, those positive will be leaning one one side and those negative to the other. 
+**
+Complexity:
+O(n) Time
+O(n) Space

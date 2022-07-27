@@ -1,0 +1,11 @@
+Problem:
+Given an array of integers, construct a new array prod such that prod[i] is equal to the product of all the elements
+    of the initial array except the element on index i. The solution must not use division operator.
+**
+Solution:
+Create 2 arrays from the given one. One will be constructed leftwards, and the other one rightwards.
+    Each element will be the total product of elements traversed up to that element.
+**
+Complexity:
+O(n) Time
+O(n) Space

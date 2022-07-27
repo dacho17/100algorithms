@@ -1,0 +1,11 @@
+Problem:
+We have a simple mathematical expression consisting of operators +, -, (, ), and numbers.
+The expression needs to be evaluated and the result returned.
+**
+Solution:
+Remember the multiplier of expression +, -, for ( and ) go into recursion, add numbers within each expression and pass
+    them back to the calling function when exiting recursion. Also keep track of the current index.
+**
+Complexity:
+O(n) Time
+[O(n), O(1)] Space (call stack in case of the expression with many parentheses)

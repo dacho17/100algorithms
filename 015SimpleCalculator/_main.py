@@ -1,4 +1,4 @@
-from CourseScheduleTestSuite import TestSuite
+from SimpleCalculatorTestSuite import TestSuite
 
 def main():
     TestSuite().run_test_suite()
