@@ -1,0 +1,19 @@
+Problem:
+Array contains one number which is not duplicate while all the others are. How do we find this one number?
+**
+Solution:
+2 potential solutions:
+    1. Iterate through array and fill the hashmap with entries (number, times_occured). Iterate through hashMap then
+        and return the number which occured 1 time
+            O(n) Time complexity
+            O(n) Space complexity
+    2. Initialize a variable to 0, and iterate through the array xoring every element along the way.
+        3 xor properties: 1. num xor num = 0; 2. num xor 0 = num; 3. xor is associative.
+        From 1. and 3. => 4. Xoring all number pairs will leave us with 0. From 2. and 4. => ultimately the variable
+        will contain the unique number
+            O(n) Time complexity
+            O(1) Space complexity
+**
+Complexity:
+O(n) Time
+O(1) Space

@@ -1,0 +1,13 @@
+Problem:
+List of sorted numbers is given, as well as a target number.
+Find the indices of first and last occurance of the target number within the list.
+**
+Solution:
+1. Traverse through the list (n) and store first and last occurance 
+    - O(n) time complexity & O(1) space complexity (no additional memory used)
+    - can we do better? - Yes we can!
+2. Do a binary search which will find the element in the list in O(log(n)) time complexity
+**
+Complexity:
+O(log(n)) Space
+O(log(n)) Time

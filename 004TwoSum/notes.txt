@@ -1,0 +1,12 @@
+Problem:
+List of numbers is given, and a target number.
+Target number represents a sum of two unique numbers from the list.
+What are those two unique numbers?
+**
+Solution:
+Traverse through the list (n) and store seen numbers in the dictionary (in format <number, index>).
+This way when we visit a number, the dictionary is checked for the target-number entry. Index is received, and number found in O(1)
+**
+Complexity:
+O(n) Space
+O(n) Time

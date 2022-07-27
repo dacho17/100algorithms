@@ -1,0 +1,13 @@
+Problem:
+Create a data structure such that the maximum value of the stack is easily accessible
+**
+Solution:
+1. First thing that comes to mind is iterating through a stack and finding the max.
+    (No additional space and O(n) time)
+2. If we are optimizing for the time, as we are since the maximum needs to be easily accessible, we can create an additional
+    stack which stores maximum values for the initial stack. Here the space complexity is an additional n, but the time
+    complexity is O(1).
+**
+Complexity:
+O(1) Time
+O(n) Space

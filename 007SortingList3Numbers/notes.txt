@@ -1,0 +1,20 @@
+Problem:
+Sort the list which has 3 unique elements
+**
+Solution:
+1. Can be done by passing through the list, counting and storing number of occurences in a hash map.
+    - Good, but this requires some additional space because we will be creating a new list. Can we do it in place?
+2. Pass once through the list using two pointers pointing to the start & the end of the list.
+While passing, check if the element currently observed is min/max, and if it is place it to the start/end of the list
+    and place start/end pointer to point to the following potentially unsorted element.
+Check the same for the element swapped in, depending on whether it has been checked before.
+    - if iterating rightwards, elements swapped in for max element have not been checked
+    - if iterating leftwards, elements swapped in for min element have not been checked
+Once we pass the pointer we were moving towards during the iteration,
+    we know all the other elements of the list have been checked and sorted
+**
+Complexity:
+1.
+    O(n) Time
+    O(n) Space
+2. O(n) Time, no additional space

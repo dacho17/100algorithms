@@ -1,0 +1,9 @@
+Problem:
+Simulate operation of adding two numbers stored as lists of digits.
+**
+Solution:
+Recursively traverse through the lists summing up the digits and keeping track of the carry over digit
+**
+Complexity:
+O(n) Time
+O(n) Space

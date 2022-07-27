@@ -1,0 +1,16 @@
+Problem:
+The problem requires the function to be implemented, which will determine wether a given word can be spelled using characters from the list provided.
+**
+Solution & Complexity:
+I came up with 3 possible solutions for this problem:
+    1. Brute force
+        - go through the word (length k) and for each character iterate the list (length n)
+        - O(k*n) time
+        - O(n) space
+    2. Create a HashMap     (Instructor went with this approach)
+        - make a map of format <letter, nOfLettersAvailable>
+        - O(n) time
+        - O(1) space
+    3. Make a bucket array  (I think this is faster than 2. since there is no time spent on searching with arrays)
+        - O(n) time
+        - O(1) space

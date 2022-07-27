@@ -1,0 +1,14 @@
+Problem:
+List all the permutations of a given array
+**
+Solution:
+Iterate through indices of an array and make a swap between "swap_index" and iteration.
+Then increment the "swap_index" by one, and enter the function again pasing the sum. This step, in conjunction with the step above,
+I see as LOCKING the index and doing permutation on the array part after this index.
+After we get out of the function, we swap back the digits to get the array as it was before the initial swap.
+In the next iteration then we will have a swap between "swap_index" and the next iteration.
+"swap_index" is a CAPO
+**
+Complexity:
+O(n!) Time
+O(n!) Space

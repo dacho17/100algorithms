@@ -1,0 +1,14 @@
+Problem:
+Reverse a linked list
+**
+Solution:
+1. Traverse and push nodes on the stack, then pop them and link them with pointers
+    O(n) Time
+    O(n) Space
+2. Traverse through the list and turn the pointers to point to the previous node
+    O(n) Time
+    O(1) Space  (if done iteratively); TODO: do it - I have a recursive solution
+**
+Complexity:
+O(n) Time
+O(1) Space

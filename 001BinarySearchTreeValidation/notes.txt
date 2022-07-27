@@ -1,0 +1,13 @@
+Problem:
+This problem requires a validation function to be implemented for binary trees.
+The requirement of the validation function is that node values on the right side of the tree
+    must be larger than node values on the left side of the tree.
+**
+Solution:
+Traverse nodes recursively, set low threshold when visiting right node, set high threshold when visiting left node
+Make sure that visited nodes are within given thresholds
+**
+Complexity:
+Solution is done in:
+    O(n) Time
+    O(n) Space

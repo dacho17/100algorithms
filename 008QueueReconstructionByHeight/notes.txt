@@ -1,0 +1,16 @@
+Problem:
+Array of people is given where each person is defined with format (height, n), where n represents
+    the number of the people in front of the person who are of the same height or higher.
+The array is unordered and needs to be ordered with respect to the definition of the entry.
+"Queue of these people needs to be reconstructed."
+**
+Solution:
+Sort first by height descending, and then by n ascending.
+This way we will first place in the list highest people with the least obstacles, and then shorter ones around them.
+We will insert new people to the list to the index n (that will exactly be a number of higher people then).
+**
+Complexity:
+O(n^2) Time
+O(n) Space
+
+TODO: can this be done better? Some bucket algorithm!?
