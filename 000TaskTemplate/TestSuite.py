@@ -1,27 +1,15 @@
 class TestSuite:
     def test_1(self):
 
-    # Expected: canBeSpelled = False
-
     def test_2(self):
-
-    # Expected: canBeSpelled = False
 
     def test_3(self):
 
-    # Expected: canBeSpelled = False
-
     def test_4(self):
-
-    # Expected: canBeSpelled = False
 
     def test_5(self):
 
-    # Expected: canBeSpelled = False
-
     def test_6(self):
-
-    # Expected: canBeSpelled = False
 
     def return_test_result(self, test_func):
         return "Passed" if test_func() else "Failed"
