@@ -1,0 +1,15 @@
+Problem:
+We are given a list of points where subsequent pairs represent vector edges. The task is to determine whether moving
+    up to one point in the list can make all the vectors in the list inclining.
+**
+Solution:
+After all possible combinations of 3 vectors have been analyzed and patterns recognized, the evaluation rules have been
+    derived.
+    There can be no 2 declining vectors in the list, since they cannot be resolved by moving one point.
+    There are edge cases for starting and ending vector, where the starting/ending point are being moved.
+    Otherwise, if possible move the starting point of the declining vector so that its value lies between the values of prev
+    and next point. If this is not possible, the list cannot be inclining.
+**
+Complexity:
+O(n) Time
+O(1) Space
