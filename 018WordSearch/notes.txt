@@ -1,0 +1,12 @@
+Problem:
+A word and a 2D Matrix containing chars are given.
+Reading top-bottom and left-right, does the word exist in the matrix?
+**
+Solution:
+1. Brute force + heuristics
+2. The matrix can be used as a tree also (each entry is a node pointing to down and right nodes) so DFS/BFS can be used here.
+    This will require more space, but could improve time? TODO: Think about this!
+**
+Complexity:
+O(n^2) Time
+O(k) Space
