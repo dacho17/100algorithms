@@ -1,0 +1,15 @@
+Problem:
+The goal is to remove k-th element from the back side of a list.
+**
+Solution:
+1. Iterate through the list and determine its length. Iterate through it again and remove the element.
+2. Have two pointers in the list. Second offset by k + 1 from the other first. When the second hits the end of the list
+    the node pointed to by the first pointer, will have its next property set to k-1st (from the end) member of the list.
+**
+Complexity:
+1.
+    O(n) + O(n-k) ~ O(2n) Time
+    O(1) Space
+2.
+    O(n) Time
+    O(1) Space
