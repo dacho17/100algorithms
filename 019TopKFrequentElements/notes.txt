@@ -1,0 +1,21 @@
+Problem:
+An array an number k are given. Return list of top k most frequently appearing elements.
+**
+Solution:
+Store the number of occurences of the elements in a dictionary/list with format (el, occ).
+1. Sort the list and pick out first two elements.
+2. Iterate through the dictionary and find the 2 elements with largest number of occurances.
+3. Construct a heap from the dictionary.
+**
+Complexity:
+O(n) space complexity for creating a dictionary, O(n) time complexity for iterating through the array
+1. O(n * logn) time complexity.
+2. O(k * n) time complexity.
+3. O(n) time complexity to construct the heap and O(k * logn) time complexity to fetch k maxes. O(n) space complexity for the heap.
+
+1.  Time:   O(n) + O(n * logn) = O(n * logn)
+    Space:  O(n)
+2.  Time:   O(n) + O(k * n) = O((k + 1) * n)
+    Space:  O(n) + O(k) = O(k + n) = O(n)
+3.  Time:   O(n) + O(n) + O(k*logn) = O(2n) + O(k*logn)
+    Space:  O(n) + O(n) = O(2n) = O(n)

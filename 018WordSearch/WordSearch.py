@@ -6,6 +6,9 @@ class WordGrid(object):
         for row in range(0, len(self.matrix)):
             letter_ptr = 0
             for col in range(0, len(self.matrix)):
+                # heuristic to give up searching the row/column if the number of elements remaining is not enough to finish the word
+                if len(word) - letter_ptr > len(self.matrix) - col: # n of letters still to be found > letters remaining in row/col
+                    break
                 if self.matrix[row][col] == word[letter_ptr]:
                     letter_ptr += 1
                 elif self.matrix[row][col] == word[0]:
@@ -15,9 +18,7 @@ class WordGrid(object):
                 
                 if letter_ptr == len(word):
                     return True
-                 # heuristic to give up searching the row/column if the number of elements remaining is not enough to finish the word
-                if len(word) - letter_ptr > len(self.matrix) - col - 1:
-                    break
+                
         
         for col in range(0 , len(self.matrix)):
             letter_ptr = 0
