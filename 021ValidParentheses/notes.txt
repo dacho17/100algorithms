@@ -1,0 +1,9 @@
+Problem:
+A list of parentheses is given. It needs to be determined whether these parentheses are validly placed.
+**
+Solution:
+Follow the occurances of parentheses by pushing them on the stack. They all need to be closed in the opposite of the order they were openned LIFO.
+**
+Complexity:
+O(x) Time
+O(x) Space
