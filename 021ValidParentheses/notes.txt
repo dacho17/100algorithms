@@ -5,5 +5,5 @@ Solution:
 Follow the occurances of parentheses by pushing them on the stack. They all need to be closed in the opposite of the order they were openned LIFO.
 **
 Complexity:
-O(x) Time
-O(x) Space
+O(n) Time   - traversing through the expression
+O(n) Space  - expression could be made entirely of openning parentheses which means stack can become of size n
