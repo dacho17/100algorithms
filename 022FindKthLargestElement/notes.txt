@@ -1,0 +1,18 @@
+Problem:
+Find k-th largest element in the list.
+**
+Solution:
+1. Sort the array and pick the k-th largest element.
+2. Construct the heap and pop it k times.
+3. Using QuickSelect algorithm.
+**
+Complexity:
+1.
+    O(n * logn) Time
+    O(1) Space
+2.
+    O(2n) + O(k * logn) Time
+    O(n) Space
+3.
+    O(2n) Time
+    O(1) Space
