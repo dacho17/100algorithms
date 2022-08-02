@@ -1,0 +1,13 @@
+Problem:
+Given an array, find all triplets which summed up give 0.
+**
+Solution:
+1. Brute force - 3 for loops. O(n^3) time complexity
+2. 2sum approach where we are summing 2 numbers to give -n. (derived from a + b + n = 0)
+3. Sort the array. And for each number (representing a sum) in the array, iterate through the array with two pointers (@ start & end of the array).
+    If the sum of pointed elements is too great, move end pointer backwards. If the sum of pointed elements is too low, move start pointer forwards. Move pointers until end == start.
+**
+Complexity:
+3.
+    O(n^2) Time
+    O(n) Space
