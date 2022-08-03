@@ -1,0 +1,10 @@
+Problem:
+A mxn matrix is given which needs to be traversed spirally.
+**
+Solution:
+Initialize the edges. Visit elements in order: right, down, left, each direction until the edge is hit.
+When horizontal or vertical edges become other side's edge, terminate the execution.
+**
+Complexity:
+O(mxn) Time
+O(1) Space
