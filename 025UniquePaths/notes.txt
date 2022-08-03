@@ -1,0 +1,13 @@
+Problem:
+A matrix is given where the number of unique paths needs to be calculated starting from the top-left corner and ending in right-bottom corner.
+Only rightwards and downwards moves are allowed. 
+**
+Solution:
+To each field in topmost and leftmost rows we can arrive in 1 way.
+Each other field can be reached by going right from the left field or going down from the upper field.
+So the number of ways a field can be reached will be left field ways + upper field ways.
+**
+Complexity:
+Dynamic programming approach:
+    O(mxn) Time
+    O(mxn) Space
