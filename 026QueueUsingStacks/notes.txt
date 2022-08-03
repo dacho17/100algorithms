@@ -1,0 +1,9 @@
+Problem:
+Implement a queue using only stacks.
+**
+Solution:
+Have an object having two stacks as properties.
+**
+Complexity:
+O(2n) Time
+O(2n) Space
