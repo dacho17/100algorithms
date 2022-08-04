@@ -1,0 +1,10 @@
+Problem:
+A list of numbers is given. The task is to remove all sequences of nodes whose sum of elements equals to 0.
+**
+Solution:
+Iterate through the list, calculate and store intermediate sums. When the intermediate sum which is stored appears again, remove all the intermediate sums
+    from the storage which occured after the first occurance of the formentioned sum.
+**
+Complexity:
+O(x) Time
+O(x) Space
