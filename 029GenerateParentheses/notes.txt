@@ -1,0 +1,9 @@
+Problem:
+Find all valid combinations of parentheses for a given number N. N is the number of the open parentheses occurences.
+**
+Solution:
+Track number of opened parentheses and number of parentheses to be closed. Allow the state to change if valid.
+**
+Complexity:
+O(2^n) Time     divided by the pruning factor of my solution (not exploring invalid states => 2^n / 2 maybe)
+O(2^n) Space    divided by the pruning factor of my solution (not exploring invalid states => 2^n / 2 maybe)
