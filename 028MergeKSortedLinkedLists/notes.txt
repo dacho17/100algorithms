@@ -1,0 +1,11 @@
+Problem:
+K lists of sorted elements are given. The task is to created a sorted list of all the elements.
+**
+Solution:
+Each iteration will contain a heap of K elements which are currently being considered for insertion.
+Smallest of those elements will be inserted to the final list,
+    pointer on the correct list will be increased and the next element in that list will be added to the heap.
+**
+Complexity:
+O(nlog(K)) Time
+O(n) Space
