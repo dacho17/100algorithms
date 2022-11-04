@@ -1,0 +1,12 @@
+Problem:
+Given two complete linked lists, find the node in which they intersect. If they do intersect.
+NOTE: The lists will have common nodes from the node of intersection and until the last node.
+**
+Solution:
+Traverse both lists and find their length. Move the starting point of longer list
+    len(longer) - len(shorter) nodes. Start comparing nodes from that point onwards.
+    Since lists end with the common sublist, they will merge at some node.
+**
+Complexity:
+O(m + n) Time
+O(1) Space
