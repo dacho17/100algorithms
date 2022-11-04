@@ -1,0 +1,11 @@
+Problem:
+Given an array of integers, find the first missing positive integer that does not exist in the array.
+**
+Solutions:
+Brute force < Heap approach < Quicksort < HashSet
+Store positive integers in a HashSet.
+Iterate through hashset requesting positive integers sequentially.
+**
+Complexity:
+O(n) Time
+O(n) Space
