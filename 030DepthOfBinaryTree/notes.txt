@@ -1,0 +1,10 @@
+Problem:
+Find the depth of a binary tree.
+**
+Solution:
+In each recursive call check if the current node is a leaf, if yes start incrementing depth by one with each return.
+For the non-leaf nodes, determine which of their subtrees has the longest depth.
+**
+Complexity:
+O(n) Time
+O(log(n)) Space (the depth of the fully balanced tree approaches the value of log(n))
