@@ -1,0 +1,11 @@
+Problem:
+Given a list of colors. Sort the colors.
+Disclamer - posited explicitly as an ambiguous question.
+**
+Solution:
+Many diffrent ways to solve this.
+Quick sort < Counting in hashMap < low-high ptr swaps
+**
+Complexity:
+O(n) Time
+O(1) Space
