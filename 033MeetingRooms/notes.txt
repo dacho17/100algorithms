@@ -1,0 +1,10 @@
+Problem:
+Given is a list of time intervals.
+Find maximum number of intervals overlapping at any time unit within the time interval.
+**
+Solution:
+Sort the time points and count rooms being used at each of those time points.
+**
+Complexity:
+O(nlog(n)) Time
+O(n) Space
