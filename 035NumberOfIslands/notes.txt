@@ -1,0 +1,11 @@
+Problem:
+Map is given with fields containing either water or land.
+Find the number of islands within the grid. (Grid has n tiles)
+**
+Solution:
+Iterate through the grid and do DFS for each tile if the tile is of type land.
+Once the land tile has been visited mark it so (or sink it).
+**
+Complexity:
+O(n) Time
+O(n) Space
