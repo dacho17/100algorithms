@@ -1,0 +1,13 @@
+Problem:
+Count number of unival values in a given tree.
+Unival tree is a tree in which all nodes have the same value.
+**
+Solution:
+Recurse down the tree.
+Each node is unival and its parent is unival as long as the parent
+has the same value as its unival children.
+**
+Complexity:
+O(n) Time
+O(n) Space
+ 
