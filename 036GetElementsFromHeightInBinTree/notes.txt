@@ -1,0 +1,10 @@
+Problem:
+Given a binary tree, return all the values of the nodes at the given tree height/level.
+**
+Solution:
+Using DFS or BFS recurse into the tree until node at the given height is reached.
+Return the found node and combine it with the other nodes into the result.
+**
+Complexity:
+O(n) Time   (visiting every single node)
+O(n) Space  (tree could be a one parent - one child branch all the way)
