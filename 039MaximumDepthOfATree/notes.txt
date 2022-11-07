@@ -1,0 +1,10 @@
+Problem:
+Find the maximum depth of a binary tree.
+**
+Solution:
+Iterative form must be used due to the large size of the tree.
+Push the visited nodes, along with their depth on the stack.
+**
+Complexity:
+O(n) Time
+O(n) Space  (in case right nodes appear on every subtree and remain unpopped on stack)
