@@ -1,0 +1,11 @@
+Problem:
+Given are an array and a value K.
+Find the minimum length of the CONTINUOUS subarray whose elements sum up to K.
+All the elements within the array are positive.
+**
+Solution:
+Use a sliding window.
+**
+Complexity:
+O(n) Time
+O(1) Space
