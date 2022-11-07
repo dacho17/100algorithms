@@ -1,0 +1,11 @@
+Problem:
+Given a list of strings, find which strings are each other's anagrams.
+Return the separate anagram lists in a list.
+**
+Solution:
+For every word count the occurence of characters using a mask.
+Use the mask as a key of dictionary. Value will be a list of anagrams.
+**
+Complexity:
+O(m*n) Time
+O(m*n) Space
