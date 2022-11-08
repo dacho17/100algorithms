@@ -1,0 +1,10 @@
+Problem:
+Given a sorted array of numbers
+**
+Solution:
+Pass once through the array and check if the current array is alive, if not save it and reset the current array.
+If yes increase the pointer and change the expected values. 
+**
+Complexity:
+O(n) Time
+O(n) Space  (2n worst case where array is entirely made of 1-element subarrays)
