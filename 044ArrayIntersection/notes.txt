@@ -1,0 +1,11 @@
+Problem:
+Given two arrays, find their common elements (intersection).
+**
+Solution:
+Pass through the first list and put its elements in a set.
+Pass through the second list and check its elements against the set constructed from the first list.
+To the result set, insert the elements which are matched.
+**
+Complexity:
+O(n + m) Time   (n and m are list lengths)
+O(2 * max(n, m)) Space  (if all of the elements are in common)
