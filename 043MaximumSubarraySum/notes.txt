@@ -1,0 +1,10 @@
+Problem:
+Given an array of numbers, find the subarray with the largest sum.
+**
+Solution:
+Pass through the list considering only positive subsums in future ones.
+Compare the current subsum to the max subsum.
+**
+Complexity:
+O(n) Time
+O(1) Space
