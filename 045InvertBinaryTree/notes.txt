@@ -1,0 +1,9 @@
+Problem:
+Mirror a binary tree.
+**
+Solution:
+Iterate recursively through the tree, and swap left and right node.
+**
+Complexity:
+O(n) Time
+O(n) Space
