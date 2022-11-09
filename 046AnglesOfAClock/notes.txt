@@ -1,0 +1,10 @@
+Problem:
+Determine the angle between the legs of a clock.
+**
+Solution:
+Determine separately the angles of hour and minute leg of a clock.
+Substract those angles, abs them and scale to [0, 180] in order to get the angle.
+**
+Complexity:
+O(1) Time
+O(1) Space
