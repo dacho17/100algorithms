@@ -1,0 +1,13 @@
+Problem:
+Given a string, find the longest substring in the string which has unique characters.
+**
+Solution:
+Have a hashMap of seen characters with their last seen position.
+Loop through the string, and if the current char's position
+    has been seen and is within the substring being considered,
+    move the considered substring to start from the last seen position of that char.
+**
+Complexity:
+O(n) Time
+O(k) Space  (where k is total number of different characters that can appear)
+    - space is constant
