@@ -1,0 +1,11 @@
+Problem:
+Given a set of words, assess whether they can be chained into a circle,
+    such that last character of a word is a first character of another word.
+**
+Solution:
+The solution was to remember each beginning and end character and the numbers of their occurrences.
+These occurrences must match in order for the chain to be constructed.
+**
+Complexity:
+O(n) Time
+O(n) Space
