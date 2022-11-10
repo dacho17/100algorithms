@@ -1,0 +1,10 @@
+Problem:
+Implement a serialization and deserialization functions for binary trees.
+NOTE: very open question. Candidate decides everything.
+**
+Solution:
+DFS with setting stop symbols.
+**
+Complexity:
+O(n) Time
+O(n) Space
