@@ -1,4 +1,4 @@
-from x import TestSuite
+from StockTradingTestSuite import TestSuite
 
 def main():
     TestSuite().run_test_suite()

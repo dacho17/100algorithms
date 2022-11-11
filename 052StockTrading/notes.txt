@@ -1,9 +1,14 @@
 Problem:
-
+Given a list of prices, determine when was the best time to buy and sell a stock.
+Return the max profit which could have been gained.
 **
 Solution:
-
+Davy: the task can be solved sweeping through the array and storing max and min value. The difference between the two is the solution.
+    - no it cannot because time is a factor. Min could appear after Max
+Otherwise: Iterate through the prices list with a pointer to the minimum value found so far.
+    If the difference between currently considered element and the minimum is negative. Current element becomes minimum.
+    If the difference between currently considered element and the minimum is maximum. This is the max profit until now.
 **
 Complexity:
-O(x) Time
-O(x) Space
+O(n) Time
+O(1) Space
