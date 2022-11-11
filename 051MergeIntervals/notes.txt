@@ -1,9 +1,11 @@
 Problem:
-
+Given a list of intervals, return the list of merged, non-overlapping intervals.
 **
 Solution:
-
+Sort the list of intervals by their starting value.
+Check if the starting point of the next interval falls within the current interval.
+If it does, continue expanding the current interval. If it does not, store the interval and start a new one.
 **
 Complexity:
-O(x) Time
-O(x) Space
+O(n * logn) Time
+O(n) Space
