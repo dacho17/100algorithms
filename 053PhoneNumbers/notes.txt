@@ -1,0 +1,12 @@
+Problem:
+Given are a phone number and a list of valid words.
+Return all the valid words which can be generated using the phone number buttons.
+**
+Solution:
+Preprocess the valid words.
+Encode them to their phone number combination and store in a dictionary in format (encodedVal, [words]).
+Fetching words for a given combinations is done in O(1).
+**
+Complexity:
+O(n) Time   (to encode the valid words it will take O(26 * n) where 26n is the summed length of words)
+O(n) Space
