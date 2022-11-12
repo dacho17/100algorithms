@@ -1,9 +1,10 @@
 Problem:
-
+Given a list of points find closest points to the origin.
 **
 Solution:
-
+Iterate through the list and calculate the distances.
+Heapify the points and their respective distances. Pop k required points from the heap.
 **
 Complexity:
-O(x) Time
-O(x) Space
+O(n) + O(k*logn) Time
+O(n) Space
