@@ -1,0 +1,13 @@
+IMPORTANT TASK! Know this one well!
+
+Problem:
+Given are a list of numbers and a number k.
+Find the k-th smallest/largest element in the array.
+**
+Solution:
+Approaches:
+    Sort (nlogn) < Heap (klogn + n) < Quickselect
+**
+Complexity:
+O(n) Time   (n/2+n/4+n/8)
+O(1) Space
