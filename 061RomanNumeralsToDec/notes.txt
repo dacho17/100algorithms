@@ -1,0 +1,10 @@
+Problem:
+Given a roman numeral, convert it to decimal.
+**
+Solution:
+From left to right of the number iterate symbols and add them up.
+If order falls under the current order add the negative value.
+**
+Complexity:
+O(n) Time
+O(1) Space
