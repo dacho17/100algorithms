@@ -1,0 +1,10 @@
+Problem:
+Two binary trees are given and a node in the first one.
+Find the given node in the second tree. The second tree resembles the structure of the first tree.
+**
+Solution:
+Iterate simultaneously through the trees. (Or remember the path of the node and go the same path in the second tree).
+**
+Complexity:
+O(n) Time
+O(n) Space
