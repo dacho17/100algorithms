@@ -1,0 +1,10 @@
+Problem:
+Check if the given word is a palindrome.
+**
+Solution:
+Count the frequency of characters appearing in the word.
+Based on this determine if the word is a paldindrome.
+**
+Complexity:
+O(n) Time
+O(n) Space
