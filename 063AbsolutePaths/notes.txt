@@ -1,0 +1,10 @@
+Problem:
+Given is an absolute path which needs to be simplified.
+**
+Solution:
+Use the stack to simplify the path.
+Push the concrete folders to the stack and pop first in case .. is encountered.
+**
+Complexity:
+O(n) Time
+O(n) Space
