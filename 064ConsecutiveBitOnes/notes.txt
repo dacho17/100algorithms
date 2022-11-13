@@ -1,0 +1,9 @@
+Problem:
+Given a number, determine the maximal number of subsequent 1s within number's binary format.
+**
+Solution:
+Iterate through bits and Shift them right with each bit check.
+**
+Complexity:
+O(n) Time   (where n is number of bits/iterations)
+O(1) Space
