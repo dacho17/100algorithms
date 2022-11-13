@@ -1,0 +1,9 @@
+Problem:
+Given a map, find the largest island in the grid.
+**
+Solution:
+Iterate through the fields and call dfs on each.
+**
+Complexity:
+O(n) Time   (where n is number of tiles)
+O(n) Space
