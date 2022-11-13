@@ -1,9 +1,10 @@
 Problem:
-
+Given are two rectangles. Find the size of the intersection area.
 **
 Solution:
-
+Engineer possible cases. Find the intersection points.
+Find the area of the rectangular closed by those points.
 **
 Complexity:
-O(x) Time
-O(x) Space
+O(1) Time
+O(1) Space

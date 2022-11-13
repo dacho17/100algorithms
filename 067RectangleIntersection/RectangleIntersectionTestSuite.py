@@ -1,15 +1,23 @@
+from RectangleIntersection import Rectangle, intersect_rect
+
 class TestSuite:
     def test_1(self):
+        return intersect_rect(Rectangle(0, 0, 1, 1), Rectangle(0, 0, 1, 1)).area() == 1
 
     def test_2(self):
+        return intersect_rect(Rectangle(0, 0, 1, 1), Rectangle(0, 0, 2, 2)).area() == 1
 
     def test_3(self):
+        return intersect_rect(Rectangle(-1, -1, 1, 1), Rectangle(-2, -2, 2, 2)).area() == 4
 
     def test_4(self):
+        return intersect_rect(Rectangle(-2, -2, -1, -1), Rectangle(-2, -2, -1, 1)).area() == 1
 
     def test_5(self):
+        return intersect_rect(Rectangle(-2, -2, -1, 1), Rectangle(-2, -2, 3, 1)).area() == 3
 
     def test_6(self):
+        return intersect_rect(Rectangle(-2, -2, 1, 0), Rectangle(-3, -3, 3, 1)).area() == 6
 
     def return_test_result(self, test_func):
         return "Passed" if test_func() else "Failed"
