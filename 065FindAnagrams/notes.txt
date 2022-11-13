@@ -1,0 +1,10 @@
+Problem:
+Find all anagrams of the given word within the given string.
+**
+Solution:
+Use cleverly encoded sliding window to check whether the currently watched word is an anagram.
+The algorithm is further described next to the implementation of the algorithm.
+**
+Complexity:
+O(n) Time
+O(2w) Space  (w is the length of the word)
