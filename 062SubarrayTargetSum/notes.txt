@@ -1,0 +1,13 @@
+Problem:
+Given are an array and a target number.
+Find the subarray whose elements sum to the target number.
+**
+Solution:
+Target sum = curSum - prefixSum
+Remember total sums at each step and save them as prefixSums.
+With each new iteration check if the prefix sum exists such that substracted from current total sum gives a target sum.
+In short: remember sums on each step, check if the sum on the following step minus any of the stored sums gives a target sum.
+**
+Complexity:
+O(n) Time
+O(n) Space
