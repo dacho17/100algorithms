@@ -1,0 +1,9 @@
+Problem:
+Given an array of numbers, construct the largest possible number by appending those numbers.
+**
+Solution:
+Sort the values using a custom comparator.
+**
+Complexity:
+O(nlogn) Time
+O(n) Space  (space required to perform a sort)
