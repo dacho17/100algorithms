@@ -1,0 +1,13 @@
+Problem:
+Given are a binary search tree and a node.
+Return the node which holds a successor to the value of the given node.
+**
+Solution:
+Iterate through the child successors, if any, of the target node.
+Find the leftmost node in the right subtree (successors) of the target node - this will be the first successor to the target node.
+    - value range of all the nodes in the tree is determined by the currentNode's first right and left parents [rightPar, leftPar]
+If no child successors exist for the node, climb the parents and find the first left parent (larger parent).
+**
+Complexity:
+O(n) Time
+O(1) Space
