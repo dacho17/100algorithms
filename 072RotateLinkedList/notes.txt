@@ -1,0 +1,12 @@
+Problem:
+Given a list and a number, rotate the list that number of times.
+Rotation is defined as putting the last element as the first element of a list.
+**
+Solution:
+Find the new root node and remember it as such, remove the pointer to it from the previous node.
+Connect the last node to the first node of the old list.
+Return the new root.
+**
+Complexity:
+O(n) Time
+O(1) Space
