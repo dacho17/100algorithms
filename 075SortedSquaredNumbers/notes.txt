@@ -1,0 +1,11 @@
+Problem:
+Given a sorted list of numbers, return the sorted list of theose numbers squared.
+**
+Solution:
+Find the number with the lowest absolute value.
+Set the pointers pointing to the right and left indices of the found number's index.
+Compare values pointed to by these pointers and append lower to the res array. Increase/decrease pointers.
+**
+Complexity:
+O(n) Time
+O(n) Space  (returning completely new array)
