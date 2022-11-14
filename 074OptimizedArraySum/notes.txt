@@ -1,0 +1,10 @@
+Problem:
+Given is an array of numbers and a pair of indices.
+Calculate the interval sum in the array determined by the indices.
+**
+Solution:
+Make an array of sums.
+**
+Complexity:
+O(1) Time   (initial construction of the array is O(n))
+O(n) Space
