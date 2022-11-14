@@ -1,0 +1,10 @@
+Problem:
+Given is a list. Remove the sequential duplicate element in the list.
+**
+Solution:
+Iterate through the list and if the curent value is equal to previous, connect prev node to the next node.
+NOTE: to support removing duplicates in general, hashset can be used to track seen elements -> O(n) space complexity
+**
+Complexity:
+O(n) Time
+O(1) Space
