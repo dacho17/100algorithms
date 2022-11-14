@@ -1,0 +1,9 @@
+Problem:
+Given a sqeuence of tokens, determine the first reocurring token in the sequence.
+**
+Solution:
+Remember the seen token in set, for each new token check if already seen.
+**
+Complexity:
+O(n) Time
+O(n) Space
