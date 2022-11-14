@@ -1,0 +1,9 @@
+Problem:
+Given an array of words, determine unique prefix that can represent each word.
+**
+Solution:
+Construct a trie from all of the words.
+**
+Complexity:
+O(n) Time   (where n is the total number of letters of given words)
+O(n) Space
