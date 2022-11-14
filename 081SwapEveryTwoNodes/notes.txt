@@ -1,0 +1,11 @@
+Problem:
+Given is a list of nodes. Swap every neighboring pair of nodes in the list, in a way that swap is
+made for a pair and the next swap will not touch elements of that pair anymore but proceed with the following pair.
+e.g. 1->2->3 2->1->3
+**
+Solution:
+Iterate through the list and swap value for a pair. Skip over a node then and continue doing the same.
+**
+Complexity:
+O(n) Time
+O(1) Space
