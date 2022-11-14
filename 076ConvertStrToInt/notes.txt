@@ -1,0 +1,12 @@
+Problem:
+Given is a number in a string format.
+Return the number in the corresponding int format.
+**
+Solution:
+Iterate from the first digit onwards and add the current digit to the totalSum.
+With each new digit, multiply the totalSum by 10 and add the new digit.
+Sum up the values.
+**
+Complexity:
+O(n) Time   (n is length of a number string)
+O(1) Space
