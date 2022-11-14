@@ -1,0 +1,10 @@
+Problem:
+Given a sequence of characters, determine if the sequence is a valid number.
+**
+Solution:
+Create an automata with the rules to validate sequences.
+If the automata ends in one of the valid states, the sequence is a valid number. Otherwise, not. 
+**
+Complexity:
+O(n) Time
+O(1) Space
