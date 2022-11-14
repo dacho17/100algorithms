@@ -1,0 +1,9 @@
+Problem:
+Given a tree and a subtree, determine whether the subtree is the subtree of the tree.
+**
+Solution:
+DFS Traverse the first tree and for rach node either continue the existing comparison, or do the comparisson anew.
+**
+Complexity:
+O(n * m) Time   (for each node in tree we check if it is a root of a subtree)
+O(n) Space    ()
