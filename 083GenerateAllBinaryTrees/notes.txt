@@ -1,0 +1,13 @@
+Problem:
+Given is a number n.
+Generate all binary trees of the array [1, n].
+**
+Solution:
+Transform the array to queue.
+Iterate through the length of queue, 
+Number of trees which can be constructed follows CATALAN NUMBER array. 
+**
+Complexity:
+O(n*2^n) Time   (constructing ~ 2^n trees each taking n time to be constructed)
+O(n) Space  (where n is number of nodes in the tree)
+    - recursion stack can reach this, but saving the binary trees will take much more space
