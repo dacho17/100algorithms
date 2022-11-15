@@ -1,0 +1,12 @@
+Problem:
+Given is a number.
+Find the least number of squared additioners whose sum will be this number.
+**
+Solution:
+Calculate the additioner candidate list (relevant squares) and store them in an array.
+for 1 until the number provided,
+    iterate through the candidate list and store the minimum number of sum steps to reach each number.
+**
+Complexity:
+O(nsqrt(n)) Time    (where n is the given number)
+O(n) Space
