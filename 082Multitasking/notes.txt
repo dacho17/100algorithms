@@ -1,0 +1,27 @@
+Problem:
+Given is a job sequence in order the job need to be ran, and their cooldown time.
+Calculate how long will it take for jobs to finish.
+Jobs of the same kind cannot be ran in paralel.
+e.g. cool = 2, [1, 1, 2, 1]
+    - 1..12.1(..) => 7 time units
+**
+Solution:
+step 1:
+    1 available right away, last ran on 0
+    1 available for next at 3 (1 + cooldown)
+    curJob executing at 0
+step 2:
+    1 available at 3, last ran on 3
+    1 available for next at 6 (prior + 1 + cooldown)
+    curJob executing at 3
+step 3:
+    2 available right away, last ran on 4
+    curJob executing at 4
+step 4:
+    1 avialble at 6, last run on 6
+    1 available for next at 9 (prior + 1 + cooldown)
+    curJob executing at 6
+**
+Complexity:
+O(n) Time
+O(j) Space  (dictionary size where j is a number of jobs)
