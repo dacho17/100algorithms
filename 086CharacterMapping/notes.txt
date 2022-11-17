@@ -1,0 +1,13 @@
+Problem:
+Given are two strings.
+Determine if the character mapping between these strings is 1:1.
+**
+Solution:
+While iterating through the string1, either:
+    1. Save character mappings into a dictionary
+    2. Validate the mapping
+If the mapping is invalid, strings do not have 1:1 mapping.
+**
+Complexity:
+O(n) Time   (where n is length of words)
+O(n) Space
