@@ -1,9 +1,12 @@
 Problem:
-
+Given are a tree and a value.
+Prune the subtrees made of values lower than the given value.
 **
 Solution:
-
+Traverse the tree until the leaves are reached.
+At the leave nodes, set pruning mode to True or False,
+depending on the value of a leaf compared to the given value.
 **
 Complexity:
-O(x) Time
-O(x) Space
+O(n) Time
+O(n) Space
