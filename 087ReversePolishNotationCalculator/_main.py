@@ -1,4 +1,4 @@
-from x import TestSuite
+from ReversePolishNotationCalculatorTestSuite import TestSuite
 
 def main():
     TestSuite().run_test_suite()

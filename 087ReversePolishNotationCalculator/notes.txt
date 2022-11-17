@@ -1,9 +1,9 @@
 Problem:
-
+Build a reverse polish notation calculator.
 **
 Solution:
-
+Use a stack as a helper for storing values / mid results.
 **
 Complexity:
-O(x) Time
-O(x) Space
+O(n) Time
+O(n) Space

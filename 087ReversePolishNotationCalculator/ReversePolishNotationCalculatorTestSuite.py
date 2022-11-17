@@ -1,15 +1,23 @@
+from ReversePolishNotationCalculator import calculate_reverse_polish_notation
+
 class TestSuite:
     def test_1(self):
-
+        return calculate_reverse_polish_notation([1, 0, '+']) == 1
+    
     def test_2(self):
-
+        return calculate_reverse_polish_notation([1, 3, '*', 3, '-']) == 0
+        
     def test_3(self):
+        return calculate_reverse_polish_notation([1, 2, 3, '+', 2, '*', '-']) == -9
 
     def test_4(self):
+        return calculate_reverse_polish_notation([1, 4, '-', 5, '+', 7, '-', -1, '*']) == 5
 
     def test_5(self):
+        return calculate_reverse_polish_notation([24, 1, '*', 4, 3, '*', '/', 3, 1, '+', 4, -2, '-', '+', '*']) == 20
 
     def test_6(self):
+        return calculate_reverse_polish_notation([2, 3, '*', 3, -1, '*', '/', 2, '+', -7, '-']) == 7
 
     def return_test_result(self, test_func):
         return "Passed" if test_func() else "Failed"
