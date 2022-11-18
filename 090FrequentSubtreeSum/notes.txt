@@ -1,0 +1,10 @@
+Problem:
+Given is a binary tree.
+Find the most frequent subtree sum in the tree.
+**
+Solution:
+Have a dictionary counting the sums. Return the entry with the highest value.
+**
+Complexity:
+O(n) Time   (one traversal through the tree and one through the dict (2n))
+O(n) Space  (each node defines a subtree, each subtree could have a different sum)
