@@ -1,0 +1,10 @@
+Problem:
+Given are a list and a number K.
+Rearrange the array so that values lower than K are on the left side, and values higher than K on the right side.
+**
+Solution:
+
+**
+Complexity:
+O(n) Time
+O(1) Space
