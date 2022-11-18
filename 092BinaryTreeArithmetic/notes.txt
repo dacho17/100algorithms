@@ -1,0 +1,9 @@
+Problem:
+Build a binary arithmetic tree.
+**
+Solution:
+Numbers will be leaves of the tree. Operators will be non-leaves.
+**
+Complexity:
+O(n) Time
+O(TODO) Space
