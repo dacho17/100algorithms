@@ -1,0 +1,10 @@
+Problem:
+Given are a sorted matrix and an element.
+Check if the element exists in the matrix.
+**
+Solution:
+Something like binary search will work well.
+**
+Complexity:
+O(logn) Time
+O(1) Space
