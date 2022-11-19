@@ -1,0 +1,15 @@
+Problem:
+Given an array containing numbers each representing the amount of references for a paper,
+determine the H-index of a scholar.
+H-index is defined by scholar having at least H papers cited H times.
+**
+Solution:
+H-index is determined by:
+    - a grade
+    - number of papers having that grade
+Make an array of grade frequencies.
+Return the highest number of references for which that number is equal or lower than the number of papers having equal or more than the number references.
+**
+Complexity:
+O(n) Time
+O(n) Space
