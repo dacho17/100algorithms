@@ -1,0 +1,9 @@
+Problem:
+Given is a decimal number. Return the number of 1 bits which appear in the binary representation of that number.
+**
+Solution:
+While number is not 0, check if the digit considered is 1 and divide it by 2 by shifting bits.
+**
+Complexity:
+O(n) Time   (n is a number of binary digits)
+O(1) Space
