@@ -1,0 +1,13 @@
+Problem:
+Given is an array of numbers where each element represents an amount of jumps which can be performed in within the round.
+What is the minimum number of rounds required to jump to the last element of the array?
+**
+Solution:
+h[i] = h[j] + 1, where:
+    - h[i] is the amount of rounds necessary to reach index i, and
+    - h[j] is the amount of rounds necessary to reach index j
+Count the minimal number of rounds necessary to reach each of the indices.
+**
+Complexity:
+O(n^2) Time TODO: check if time complexity can be cut down!?
+O(n) Space
