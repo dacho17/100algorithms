@@ -1,0 +1,11 @@
+Problem:
+Given is a sroted array for which a fixed point must be found.
+Fixed point is an entry for which arr[i] == i is valid.
+Try to build a solution with linear time complexity.
+**
+Solution:
+Binary search.
+**
+Complexity:
+O(logn) Time
+O(1) Space
