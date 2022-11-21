@@ -1,0 +1,9 @@
+Problem:
+Given an array, return an array containing the medians (med[i]) of the initial array from begining of the array until index i.
+**
+Solution:
+
+**
+Complexity:
+O(x) Time
+O(x) Space
