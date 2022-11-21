@@ -1,0 +1,10 @@
+Problem:
+Given an array containing performance scores of employees, return an array of bonus distribution.
+If a neighbour employee has a better score, he gets + 1 bonus to that of the neighbour (and up to +2 bonus).
+**
+Solution:
+Make two passes and make the bonus calculation in each way.
+**
+Complexity:
+O(2n) Time
+O(n) Space
