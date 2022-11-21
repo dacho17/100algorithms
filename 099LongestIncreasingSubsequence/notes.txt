@@ -1,0 +1,11 @@
+Problem:
+Given an array, find the length of the longest increasing (not necessarily connected) subsequence in the array.
+**
+Solution:
+Keep track of all increasing subarray lengths and their maximums.
+Store these in dictionary.
+With each iteration refresh the dictionary.
+**
+Complexity:
+O(n^2) Time
+O(n) Space
