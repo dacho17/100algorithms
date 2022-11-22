@@ -1,5 +1,3 @@
-# TODO: something strange is happening when running the test suite, as if dictionaries do not get reinitalized...
-
 class Node(object):
     def __init__(self, char, timesTraveled=0, children=dict()):
         self.value = char
