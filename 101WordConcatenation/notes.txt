@@ -2,8 +2,11 @@ Problem:
 Given is a list of words. Find which words can be made by concatenation of other words within the list.
 **
 Solution:
-
+Sort the words based on their length. Create a trei out of those words.
+When inserting a new word in the structure, check if it is a combination of already existing words.
+Insert the new word in the structure, and remember the word as a concatenation combination.
+Return all found concatenation combinations.
 **
 Complexity:
-O(x) Time
-O(x) Space
+O((n*m) * log(n*m)) Time (sort time)
+O(n*m) Space
