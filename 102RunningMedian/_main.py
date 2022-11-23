@@ -1,4 +1,4 @@
-from x import TestSuite
+from RunningMedianTestSuite import TestSuite
 
 def main():
     TestSuite().run_test_suite()

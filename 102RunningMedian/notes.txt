@@ -1,9 +1,17 @@
 Problem:
 Given an array, return an array containing the medians (med[i]) of the initial array from begining of the array until index i.
+*
+The median is the middle value in a set of data. First, organize and order the data from smallest to largest.
+To find the midpoint value, divide the number of observations by two.
+If there are an odd number of observations, the value in the middle of the sorted array is the median.
+If there are even number of observations, take middle two values add them and divide by two. The result is the median.
 **
 Solution:
-
+Brute force solution: iterate through the array. Sort the cur revealed array on each iteration and calculate the median. n*n*logn
+Quick select solution: iterate through the array. Do quickselect on each iteration to find the meadian. n*2*n
+Two heaps: iterate through the array. On each iteration perform 3 operations:
+    get_median O(1) ; add_value O(logn) ; rebalance O(2logn) ; total => n*logn
 **
 Complexity:
-O(x) Time
-O(x) Space
+O(n*logn) Time
+O(n) Space
