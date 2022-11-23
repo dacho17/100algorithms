@@ -1,0 +1,15 @@
+Problem:
+Given is an nxm matrix that represents a maze.
+Rules:
+    0 represent fields which can be walked through.
+    1 represent walls.
+    Only right or down step can be taken.
+    Start point is (0,0) and end point is ((n-1)x(m-1))
+**
+Solution:
+Dynamic programming.
+To each field, one can arrive in sum(neighbor_arrivals) different ways.
+**
+Complexity:
+O(nxm) Time
+O(nxm) Space
