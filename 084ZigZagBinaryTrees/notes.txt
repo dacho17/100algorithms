@@ -1,11 +1,12 @@
 Problem:
-
+Given a binary tree, print its elements in a zig-zag motion.
 **
 Solution:
-
+Have two stacks which will store nodes to be printed.
+Each stack stores nodes from the same level, so stack 1 will store nodes from the current and stack 2 nodes from the level bellow.
+To stack 1 push the nodes from leftmost sibling towards rightmost.
+To stack 2 push the nodes from rightmost sibling towards leftmost.
 **
 Complexity:
-O(x) Time
-O(x) Space
-
-TODO: solve the task
+O(n) Time
+O(n) Space
