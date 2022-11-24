@@ -1,11 +1,13 @@
-Problem:
-
+Problem:    (NOTE: duplicate of task 037)
+Determine if the binary tree is HEIGHT balanced.
+*HEIGHT BALANCED:
+    - the difference between the heights of the left and the right subtree for any node is not more than one
+    - the left subtree is balanced
+    - the right subtree is balanced
 **
 Solution:
-
+Traverse all the nodes, pass the height going upwards and compare the heights of left and right subtree on every node.
 **
 Complexity:
-O(x) Time
-O(x) Space
-
-TODO: solve the task
+O(n) Time
+O(n) Space
